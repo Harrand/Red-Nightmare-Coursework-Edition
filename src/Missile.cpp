@@ -3,7 +3,7 @@
 #include "Missile.h"
 #include "PsyhshEngine.h"
 
-Missile::Missile(BaseEngine* engine, Vector2i position): Creature(engine, "resources/missile", 1, position, 1, 0, -1, false)
+Missile::Missile(BaseEngine* engine, Vector2i position): Creature(engine, "resources/missile", 1, position, 1, 0, -1, false, false)
 {
 	this->SetTarget(this->GetPosition());
 	//this->activation_time = std::numeric_limits<int>::max();

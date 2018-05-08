@@ -5,7 +5,7 @@
 class Creature: public DisplayableObject, public Sprite
 {
 public:
-	Creature(BaseEngine* engine, const std::string& sprite_directory, unsigned int health = 1, const Vector2i& position = {0, 0}, unsigned int speed = utility::DEFAULT_SPEED, unsigned int aggro_range = utility::DEFAULT_AGGRO_RANGE, int activation_time = -1, bool draggable = true);
+	Creature(BaseEngine* engine, const std::string& sprite_directory, unsigned int health = 1, const Vector2i& position = {0, 0}, unsigned int speed = utility::DEFAULT_SPEED, unsigned int aggro_range = utility::DEFAULT_AGGRO_RANGE, int activation_time = -1, bool draggable = true, bool collideable = true);
 	~Creature() = default;
 	virtual void Draw() override;
 	virtual void DoUpdate(int iCurrentTime) override;
@@ -37,6 +37,7 @@ protected:
 	int activation_time;
 	bool fleeing;
 	bool draggable;
+	bool collideable;
 	Vector2i target;
 	/// No C++17 so no optional vector2i. just have a pair<bool, vector2i> instead
 	std::pair<bool, Vector2i> drag_offset;

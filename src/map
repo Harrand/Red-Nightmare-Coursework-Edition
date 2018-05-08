@@ -1,6 +1,6 @@
  CourseworkBase2018
 
- Timestamp is 5af0d8e0 (Mon May  7 23:53:20 2018)
+ Timestamp is 5af0f8ba (Tue May  8 02:09:14 2018)
 
  Preferred load address is 00400000
 
@@ -45,39 +45,46 @@
 
   Address         Publics by Value              Rva+Base       Lib:Object
 
- 0000:00000000       ___guard_iat_count         00000000     <absolute>
  0000:00000000       ___guard_iat_table         00000000     <absolute>
- 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
- 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
- 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
- 0000:00000000       ___guard_fids_table        00000000     <absolute>
  0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
- 0000:00000000       ___enclave_config          00000000     <absolute>
  0000:00000000       ___guard_longjmp_table     00000000     <absolute>
- 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
  0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
  0000:00000064       ___safe_se_handler_count   00000064     <absolute>
  0000:00000100       ___guard_flags             00000100     <absolute>
  0000:00000000       ___ImageBase               00400000     <linker-defined>
- 0001:00004050       ?_Adjust_manually_vector_aligned@std@@YAXAAPAXAAI@Z 00405050 f i Boss.obj
- 0001:000040b0       ?_Calculate_growth@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEII@Z 004050b0 f i Boss.obj
- 0001:00004130       ?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QAEPADXZ 00405130 f i Boss.obj
- 0001:00004170       ?_Orphan_all@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEXXZ 00405170 f i Boss.obj
- 0001:00004190       ?_Tidy_deallocate@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ 00405190 f i Boss.obj
- 0001:00004240       ?_Tidy_init@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ 00405240 f i Boss.obj
- 0001:00004290       ?length@?$char_traits@D@std@@SAIQBD@Z 00405290 f i Boss.obj
- 0001:000042b0       ?GetXCentre@DisplayableObject@@QBEHXZ 004052b0 f i Creature.obj
- 0001:000042e0       ?intersects@utility@@YA_NABU?$pair@U?$pair@HH@std@@U12@@std@@0@Z 004052e0 f i Boss.obj
+ 0001:00004050       ?GetWindowWidth@BaseEngine@@QBEHXZ 00405050 f i Boss.obj
+ 0001:00004070       ?_Large_string_engaged@?$_String_val@U?$_Simple_types@D@std@@@std@@QBE_NXZ 00405070 f i Boss.obj
+ 0001:000040b0       ?_Adjust_manually_vector_aligned@std@@YAXAAPAXAAI@Z 004050b0 f i Boss.obj
+ 0001:00004110       ?length@?$char_traits@D@std@@SAIQBD@Z 00405110 f i Boss.obj
+ 0001:00004130       ?_Getal@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBEABV?$allocator@D@2@XZ 00405130 f i Boss.obj
+ 0001:00004150       ?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QAEPADXZ 00405150 f i Boss.obj
+ 0001:00004190       ?_Orphan_all@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEXXZ 00405190 f i Boss.obj
+ 0001:000041b0       ?_Tidy_init@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ 004051b0 f i Boss.obj
+ 0001:00004200       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@QBD@Z 00405200 f i Boss.obj
+ 0001:00004240       ?_Orphan_all@_Container_base0@std@@QAEXXZ 00405240 f i Boss.obj
+ 0001:00004250       ?move@?$char_traits@D@std@@SAPADQADQBDI@Z 00405250 f i Boss.obj
+ 0001:00004290       ?deallocate@?$allocator@D@std@@QAEXQADI@Z 00405290 f i Boss.obj
+ 0001:000042b0       ?GetForeground@BaseEngine@@QAEPAUSDL_Surface@@XZ 004052b0 f i Creature.obj
+ 0001:000042d0       ?_Get_second@?$_Compressed_pair@V?$allocator@PAVCreature@@@std@@V?$_Vector_val@U?$_Simple_types@PAVCreature@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@PAVCreature@@@std@@@2@XZ 004052d0 f i Creature.obj
+ 0001:000042e0       ?copy@?$char_traits@D@std@@SAPADQADQBDI@Z 004052e0 f i Boss.obj
  0001:00004350       ??$?0$$V@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z 00405350 f i Boss.obj
  0001:00004380       ??$?0HH$0A@@?$pair@HH@std@@QAE@$$QAH0@Z 00405380 f i Boss.obj
  0001:000043d0       ??$_Allocate@$07U_Default_allocate_traits@std@@$0A@@std@@YAPAXI@Z 004053d0 f i Boss.obj
  0001:00004410       ??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPAXI@Z 00405410 f i Boss.obj
- 0001:00004470       ?move@?$char_traits@D@std@@SAPADQADQBDI@Z 00405470 f i Boss.obj
+ 0001:00004470       ?max_size@?$_Default_allocator_traits@V?$allocator@D@std@@@std@@SAIABV?$allocator@D@2@@Z 00405470 f i Boss.obj
  0001:00004490       ??$_Convert_size@I@std@@YAII@Z 00405490 f i Boss.obj
  0001:000044a0       ??$_Deallocate@$07$0A@@std@@YAXPAXI@Z 004054a0 f i Boss.obj
  0001:000044e0       ??$_Get_size_of_n@$00@std@@YAII@Z 004054e0 f i Boss.obj
  0001:000044f0       ??$_Max_value@I@std@@YAABIABI0@Z 004054f0 f i Boss.obj
  0001:00004530       ??$_Min_value@I@std@@YAABIABI0@Z 00405530 f i Boss.obj
+ 0001:00004650       ??$hypot@IHX@@YANIH@Z      00405650 f i Creature.obj
  0001:00004690       ??$_Unfancy@D@std@@YAPADPAD@Z 00405690 f i Boss.obj
  0001:000046a0       ??$addressof@PAD@std@@YAPAPADAAPAD@Z 004056a0 f i Boss.obj
  0001:000046b0       ??$construct@PADABQAD@?$_Default_allocator_traits@V?$allocator@D@std@@@std@@SAXAAV?$allocator@D@1@QAPADABQAD@Z 004056b0 f i Boss.obj
@@ -104,28 +111,31 @@
  0001:00004ac0       ??_GBoss@@UAEPAXI@Z        00405ac0 f i Boss.obj
  0001:00004b00       ?DrawForegroundString@BaseEngine@@QAEXHHPBDIPAVFont@@@Z 00405b00 f i Boss.obj
  0001:00004b40       ?GetHeight@ImageData@@QBEHXZ 00405b40 f i Boss.obj
- 0001:00004b60       ?Notify@DisplayableObject@@UAEJH@Z 00405b60 f i Boss.obj
- 0001:00004b70       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@QBDI@Z 00405b70 f i Boss.obj
- 0001:00004c00       ?_Allocate@_Default_allocate_traits@std@@SAPAXI@Z 00405c00 f i Boss.obj
- 0001:00004c20       ?max_size@?$_Default_allocator_traits@V?$allocator@D@std@@@std@@SAIABV?$allocator@D@2@@Z 00405c20 f i Boss.obj
- 0001:00004c30       ?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ 00405c30 f i Boss.obj
- 0001:00004cc0       ?_Get_data@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEAAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ 00405cc0 f i Boss.obj
- 0001:00004ce0       ?_Get_data@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBEABV?$_String_val@U?$_Simple_types@D@std@@@2@XZ 00405ce0 f i Boss.obj
- 0001:00004d00       ?_Get_first@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAEAAV?$allocator@D@2@XZ 00405d00 f i Boss.obj
- 0001:00004d20       ?_Get_first@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QBEABV?$allocator@D@2@XZ 00405d20 f i Boss.obj
- 0001:00004d40       ?_Get_second@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAEAAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ 00405d40 f i Boss.obj
- 0001:00004d60       ?_Get_second@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QBEABV?$_String_val@U?$_Simple_types@D@std@@@2@XZ 00405d60 f i Boss.obj
- 0001:00004d80       ?_Getal@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEAAV?$allocator@D@2@XZ 00405d80 f i Boss.obj
- 0001:00004da0       ?_Getal@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBEABV?$allocator@D@2@XZ 00405da0 f i Boss.obj
- 0001:00004de0       ?_Large_string_engaged@?$_String_val@U?$_Simple_types@D@std@@@std@@QBE_NXZ 00405de0 f i Boss.obj
- 0001:00004e60       ?_Orphan_all@_Container_base0@std@@QAEXXZ 00405e60 f i Boss.obj
- 0001:00004fb0       ?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@SAXXZ 00405fb0 f i Boss.obj
- 0001:00004fe0       ?allocate@?$allocator@D@std@@QAEPADI@Z 00405fe0 f i Boss.obj
- 0001:00005020       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@QBD@Z 00406020 f i Boss.obj
- 0001:000050f0       ?assign@?$char_traits@D@std@@SAXAADABD@Z 004060f0 f i Boss.obj
- 0001:00005110       ?copy@?$char_traits@D@std@@SAPADQADQBDI@Z 00406110 f i Boss.obj
- 0001:00005140       ?deallocate@?$allocator@D@std@@QAEXQADI@Z 00406140 f i Boss.obj
- 0001:00005180       ?max@?$numeric_limits@H@std@@SAHXZ 00406180 f i Boss.obj
+ 0001:00004b70       ?allocate@?$allocator@D@std@@QAEPADI@Z 00405b70 f i Boss.obj
+ 0001:00004ba0       ?intersects@utility@@YA_NABU?$pair@U?$pair@HH@std@@U12@@std@@0@Z 00405ba0 f i Boss.obj
+ 0001:00004c00       ?Notify@DisplayableObject@@UAEJH@Z 00405c00 f i Boss.obj
+ 0001:00004c30       ?max@?$numeric_limits@H@std@@SAHXZ 00405c30 f i Boss.obj
+ 0001:00004c90       ?IsLoaded@ImageData@@QBE_NXZ 00405c90 f i Creature.obj
+ 0001:00004cc0       ?_Allocate@_Default_allocate_traits@std@@SAPAXI@Z 00405cc0 f i Boss.obj
+ 0001:00004d00       ?_Get_data@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEAAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ 00405d00 f i Boss.obj
+ 0001:00004d20       ?_Get_data@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBEABV?$_String_val@U?$_Simple_types@D@std@@@2@XZ 00405d20 f i Boss.obj
+ 0001:00004d40       ?_Get_first@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAEAAV?$allocator@D@2@XZ 00405d40 f i Boss.obj
+ 0001:00004d60       ?_Get_first@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QBEABV?$allocator@D@2@XZ 00405d60 f i Boss.obj
+ 0001:00004d80       ?_Get_second@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAEAAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ 00405d80 f i Boss.obj
+ 0001:00004da0       ?_Get_second@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QBEABV?$_String_val@U?$_Simple_types@D@std@@@2@XZ 00405da0 f i Boss.obj
+ 0001:00004dc0       ?RedrawWholeScreen@DisplayableObject@@QAEXXZ 00405dc0 f i Creature.obj
+ 0001:00004de0       ?_Getal@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEAAV?$allocator@D@2@XZ 00405de0 f i Boss.obj
+ 0001:00004e10       ??4?$pair@_NU?$pair@HH@std@@@std@@QAEAAU01@$$QAU01@@Z 00405e10 f i Creature.obj
+ 0001:00004e70       ?_Lrotate@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@IAEXPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@@Z 00405e70 f i mainfunction.obj
+ 0001:00004f10       ?_Rrotate@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@IAEXPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@@Z 00405f10 f i mainfunction.obj
+ 0001:00004fc0       ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@PAVCreature@@@std@@@2@XZ 00405fc0 f i Creature.obj
+ 0001:00005020       ?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@SAXXZ 00406020 f i Boss.obj
+ 0001:00005050       ?_Tidy@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@IAEXXZ 00406050 f i mainfunction.obj
+ 0001:000050a0       ?UpdateMouseInfo@BaseEngine@@QAEXXZ 004060a0 f i Cursor.obj
+ 0001:000050d0       ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QBEABQAPAVCreature@@XZ 004060d0 f i Creature.obj
+ 0001:00005140       ?assign@?$char_traits@D@std@@SAXAADABD@Z 00406140 f i Boss.obj
+ 0001:00005160       ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QBEABQAPAVCreature@@XZ 00406160 f i Creature.obj
+ 0001:00005190       ?_Tidy@?$vector@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@AAEXXZ 00406190 f i mainfunction.obj
  0001:00005220       ??0ControlledObject@@QAE@PAVBaseEngine@@@Z 00406220 f   ControlledObject.obj
  0001:000052e0       ?Draw@ControlledObject@@UAEXXZ 004062e0 f   ControlledObject.obj
  0001:000054f0       ?DoUpdate@ControlledObject@@UAEXH@Z 004064f0 f   ControlledObject.obj
@@ -134,6 +144,10 @@
  0001:00005650       ?IsMovingRight@ControlledObject@@QBE_NXZ 00406650 f   ControlledObject.obj
  0001:00005670       ?IsMovingLeft@ControlledObject@@QBE_NXZ 00406670 f   ControlledObject.obj
  0001:00005690       ?IsMoving@ControlledObject@@QBE_NXZ 00406690 f   ControlledObject.obj
+ 0001:000056f0       ?erase@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@0@Z 004066f0 f i mainfunction.obj
+ 0001:000057b0       ?_Unchecked_begin@?$vector@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@QBEPBQAVCreature@@XZ 004067b0 f i Creature.obj
+ 0001:000057d0       ?_Unchecked_end@?$vector@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@QBEPBQAVCreature@@XZ 004067d0 f i Creature.obj
+ 0001:000057f0       ?GetWindowHeight@BaseEngine@@QBEHXZ 004067f0 f i Boss.obj
  0001:00005820       ??$?0ABV?$allocator@D@std@@$$V@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@ABV?$allocator@D@1@@Z 00406820 f i ControlledObject.obj
  0001:00005850       ??$?0ABV?$allocator@D@std@@X@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@ABV?$allocator@D@1@@Z 00406850 f i ControlledObject.obj
  0001:00005890       ??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00406890 f i ControlledObject.obj
@@ -173,27 +187,11 @@
  0001:00006830       ?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IQBDI@Z 00407830 f i ControlledObject.obj
  0001:00006990       ?size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ 00407990 f i ControlledObject.obj
  0001:000069b0       ?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@H@Z 004079b0 f i ControlledObject.obj
- 0001:000069f0       ??0Creature@@QAE@PAVBaseEngine@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IABU?$pair@HH@3@IIH_N@Z 004079f0 f   Creature.obj
- 0001:00006b10       ?Draw@Creature@@UAEXXZ     00407b10 f   Creature.obj
- 0001:00006b90       ?DoUpdate@Creature@@UAEXH@Z 00407b90 f   Creature.obj
- 0001:00006df0       ?GetBoundingBox@Creature@@QBE?AU?$pair@U?$pair@HH@std@@U12@@std@@XZ 00407df0 f   Creature.obj
- 0001:00006e70       ?IsAlive@Creature@@QBE_NXZ 00407e70 f   Creature.obj
- 0001:00006ea0       ?Kill@Creature@@QAEXXZ     00407ea0 f   Creature.obj
- 0001:00006ed0       ?GetMaxHealth@Creature@@QBEIXZ 00407ed0 f   Creature.obj
- 0001:00006ef0       ?GetHealth@Creature@@QBEIXZ 00407ef0 f   Creature.obj
- 0001:00006f10       ?SetHealth@Creature@@QAEXI@Z 00407f10 f   Creature.obj
- 0001:00006f30       ?SetSpeed@Creature@@QAEXI@Z 00407f30 f   Creature.obj
- 0001:00006f50       ?GetPosition@Creature@@QBE?AU?$pair@HH@std@@XZ 00407f50 f   Creature.obj
- 0001:00006f80       ?SetPosition@Creature@@QAEXABU?$pair@HH@std@@@Z 00407f80 f   Creature.obj
- 0001:00006fb0       ?GetTarget@Creature@@QBE?AU?$pair@HH@std@@XZ 00407fb0 f   Creature.obj
- 0001:00006fe0       ?SetTarget@Creature@@QAEXU?$pair@HH@std@@@Z 00407fe0 f   Creature.obj
- 0001:00007000       ?GetAggroRange@Creature@@QBEIXZ 00408000 f   Creature.obj
- 0001:00007020       ?SetAggroRange@Creature@@QAEXI@Z 00408020 f   Creature.obj
- 0001:00007040       ?SetActivationTime@Creature@@QAEXH@Z 00408040 f   Creature.obj
- 0001:00007060       ?IsActive@Creature@@QBE_NXZ 00408060 f   Creature.obj
- 0001:00007090       ?IsFleeing@Creature@@QBE_NXZ 00408090 f   Creature.obj
- 0001:000070b0       ?SetFleeing@Creature@@QAEX_N@Z 004080b0 f   Creature.obj
- 0001:000070d0       ?HandleMovement@Creature@@IAEXH@Z 004080d0 f   Creature.obj
+ 0001:000069e0       ?erase@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@@Z 004079e0 f i mainfunction.obj
+ 0001:00006a70       ?_Calculate_growth@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEII@Z 00407a70 f i Boss.obj
+ 0001:00006af0       ?_Tidy_deallocate@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ 00407af0 f i Boss.obj
+ 0001:00006ba0       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@QBDI@Z 00407ba0 f i Boss.obj
+ 0001:00006c30       ?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ 00407c30 f i Boss.obj
  0001:000075c0       ??$?0HH$0A@@?$pair@HH@std@@QAE@ABH0@Z 004085c0 f i Creature.obj
  0001:000075f0       ??$?0U?$pair@HH@std@@U01@$0A@@?$pair@U?$pair@HH@std@@U12@@std@@QAE@ABU?$pair@HH@1@0@Z 004085f0 f i Creature.obj
  0001:00007630       ??$?0_NAAU?$pair@HH@std@@$0A@@?$pair@_NU?$pair@HH@std@@@std@@QAE@$$QA_NAAU?$pair@HH@1@@Z 00408630 f i Creature.obj
@@ -201,16 +199,14 @@
  0001:000076c0       ??$forward@AAU?$pair@HH@std@@@std@@YAAAU?$pair@HH@0@AAU10@@Z 004086c0 f i Creature.obj
  0001:000076d0       ??$forward@U?$pair@HH@std@@@std@@YA$$QAU?$pair@HH@0@AAU10@@Z 004086d0 f i Creature.obj
  0001:000076e0       ??$forward@_N@std@@YA$$QA_NAA_N@Z 004086e0 f i Creature.obj
- 0001:000076f0       ??4?$pair@HH@std@@QAEAAU01@$$QAU01@@Z 004086f0 f i Creature.obj
- 0001:00007740       ??4?$pair@HH@std@@QAEAAU01@ABU01@@Z 00408740 f i Creature.obj
- 0001:00007770       ??4?$pair@_NU?$pair@HH@std@@@std@@QAEAAU01@$$QAU01@@Z 00408770 f i Creature.obj
- 0001:000077c0       ??_ECreature@@UAEPAXI@Z    004087c0 f i Creature.obj
- 0001:000077c0       ??_GCreature@@UAEPAXI@Z    004087c0 f i Creature.obj
- 0001:00007800       ?GetForeground@BaseEngine@@QAEPAUSDL_Surface@@XZ 00408800 f i Creature.obj
- 0001:00007820       ?GetWidth@ImageData@@QBEHXZ 00408820 f i Creature.obj
- 0001:00007860       ?GetYCentre@DisplayableObject@@QBEHXZ 00408860 f i Creature.obj
- 0001:00007890       ?IsLoaded@ImageData@@QBE_NXZ 00408890 f i Creature.obj
- 0001:000078c0       ?RedrawWholeScreen@DisplayableObject@@QAEXXZ 004088c0 f i Creature.obj
+ 0001:000076f0       ??$hypot@HIX@@YANHI@Z      004086f0 f i Creature.obj
+ 0001:00007770       ??4?$pair@HH@std@@QAEAAU01@$$QAU01@@Z 00408770 f i Creature.obj
+ 0001:000077c0       ??4?$pair@HH@std@@QAEAAU01@ABU01@@Z 004087c0 f i Creature.obj
+ 0001:00007820       ??_ECreature@@UAEPAXI@Z    00408820 f i Creature.obj
+ 0001:00007820       ??_GCreature@@UAEPAXI@Z    00408820 f i Creature.obj
+ 0001:00007860       ?GetWidth@ImageData@@QBEHXZ 00408860 f i Creature.obj
+ 0001:00007890       ?GetXCentre@DisplayableObject@@QBEHXZ 00408890 f i Creature.obj
+ 0001:000078c0       ?GetYCentre@DisplayableObject@@QBEHXZ 004088c0 f i Creature.obj
  0001:00007990       ??0Cursor@@QAE@PAVBaseEngine@@@Z 00408990 f   Cursor.obj
  0001:00007ab0       ??1Cursor@@UAE@XZ          00408ab0 f   Cursor.obj
  0001:00007af0       ?Draw@Cursor@@UAEXXZ       00408af0 f   Cursor.obj
@@ -231,9 +227,6 @@
  0001:00008100       ?GetCurrentButtonStates@BaseEngine@@QBEHXZ 00409100 f i Cursor.obj
  0001:00008120       ?GetCurrentMouseX@BaseEngine@@QBEHXZ 00409120 f i Cursor.obj
  0001:00008140       ?GetCurrentMouseY@BaseEngine@@QBEHXZ 00409140 f i Cursor.obj
- 0001:00008160       ?GetWindowHeight@BaseEngine@@QBEHXZ 00409160 f i Cursor.obj
- 0001:00008180       ?GetWindowWidth@BaseEngine@@QBEHXZ 00409180 f i Cursor.obj
- 0001:000081a0       ?UpdateMouseInfo@BaseEngine@@QAEXXZ 004091a0 f i Cursor.obj
  0001:00008730       ??1HealthBar@@UAE@XZ       00409730 f i HealthBar.obj
  0001:000087a0       ??_EHealthBar@@UAEPAXI@Z   004097a0 f i HealthBar.obj
  0001:000087a0       ??_GHealthBar@@UAEPAXI@Z   004097a0 f i HealthBar.obj
@@ -282,45 +275,36 @@
  0001:0000a310       ?_Get_data@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEAAV?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@XZ 0040b310 f i mainfunction.obj
  0001:0000a330       ?_Get_data@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QBEABV?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@XZ 0040b330 f i mainfunction.obj
  0001:0000a350       ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@PAVCreature@@@std@@@2@XZ 0040b350 f i mainfunction.obj
- 0001:0000a370       ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@PAVCreature@@@std@@@2@XZ 0040b370 f i mainfunction.obj
- 0001:0000a390       ?_Get_first@?$_Compressed_pair@V?$allocator@PAVCreature@@@std@@V?$_Vector_val@U?$_Simple_types@PAVCreature@@@std@@@2@$00@std@@QAEAAV?$allocator@PAVCreature@@@2@XZ 0040b390 f i mainfunction.obj
- 0001:0000a3b0       ?_Get_first@?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@std@@QAEAAV?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@2@XZ 0040b3b0 f i mainfunction.obj
- 0001:0000a3d0       ?_Get_second@?$_Compressed_pair@U?$less@U?$pair@HH@std@@@std@@V?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@2@$00@std@@QAEAAV?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@2@XZ 0040b3d0 f i mainfunction.obj
- 0001:0000a3f0       ?_Get_second@?$_Compressed_pair@U?$less@U?$pair@HH@std@@@std@@V?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@2@$00@std@@QBEABV?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@2@XZ 0040b3f0 f i mainfunction.obj
- 0001:0000a410       ?_Get_second@?$_Compressed_pair@V?$allocator@PAVCreature@@@std@@V?$_Vector_val@U?$_Simple_types@PAVCreature@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@PAVCreature@@@std@@@2@XZ 0040b410 f i mainfunction.obj
- 0001:0000a430       ?_Get_second@?$_Compressed_pair@V?$allocator@PAVCreature@@@std@@V?$_Vector_val@U?$_Simple_types@PAVCreature@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@PAVCreature@@@std@@@2@XZ 0040b430 f i mainfunction.obj
- 0001:0000a450       ?_Get_second@?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@std@@QAEAAV?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@XZ 0040b450 f i mainfunction.obj
- 0001:0000a470       ?_Get_second@?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@std@@QBEABV?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@XZ 0040b470 f i mainfunction.obj
- 0001:0000a490       ?_Getal@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEAAV?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@2@XZ 0040b490 f i mainfunction.obj
- 0001:0000a4b0       ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QAEAAV?$allocator@PAVCreature@@@2@XZ 0040b4b0 f i mainfunction.obj
- 0001:0000a4d0       ?_Lmost@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@IBEAAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@XZ 0040b4d0 f i mainfunction.obj
- 0001:0000a4f0       ?_Lrotate@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@IAEXPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@@Z 0040b4f0 f i mainfunction.obj
- 0001:0000a5c0       ?_Max@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@SAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@PAU32@@Z 0040b5c0 f i mainfunction.obj
- 0001:0000a5e0       ?_Max@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@SAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@PAU32@@Z 0040b5e0 f i mainfunction.obj
- 0001:0000a610       ?_Min@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@SAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@PAU32@@Z 0040b610 f i mainfunction.obj
- 0001:0000a630       ?_Min@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@SAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@PAU32@@Z 0040b630 f i mainfunction.obj
- 0001:0000a660       ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QAEAAPAPAVCreature@@XZ 0040b660 f i mainfunction.obj
- 0001:0000a680       ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QBEABQAPAVCreature@@XZ 0040b680 f i mainfunction.obj
- 0001:0000a6a0       ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QAEAAPAPAVCreature@@XZ 0040b6a0 f i mainfunction.obj
- 0001:0000a6c0       ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QBEABQAPAVCreature@@XZ 0040b6c0 f i mainfunction.obj
- 0001:0000a6e0       ?_Myhead@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEAAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@XZ 0040b6e0 f i mainfunction.obj
- 0001:0000a700       ?_Myhead@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QBEABQAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@XZ 0040b700 f i mainfunction.obj
- 0001:0000a720       ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QAEAAPAPAVCreature@@XZ 0040b720 f i mainfunction.obj
- 0001:0000a740       ?_Mysize@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEAAIXZ 0040b740 f i mainfunction.obj
- 0001:0000a760       ?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QAEXXZ 0040b760 f i mainfunction.obj
- 0001:0000a780       ?_Rmost@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@IBEAAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@XZ 0040b780 f i mainfunction.obj
- 0001:0000a7a0       ?_Root@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@IBEAAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@XZ 0040b7a0 f i mainfunction.obj
- 0001:0000a7c0       ?_Rrotate@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@IAEXPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@@Z 0040b7c0 f i mainfunction.obj
- 0001:0000a890       ?_Tidy@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@IAEXXZ 0040b890 f i mainfunction.obj
- 0001:0000a8f0       ?_Tidy@?$vector@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@AAEXXZ 0040b8f0 f i mainfunction.obj
- 0001:0000a9a0       ?begin@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 0040b9a0 f i mainfunction.obj
- 0001:0000aa20       ?capacity@?$vector@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@QBEIXZ 0040ba20 f i mainfunction.obj
- 0001:0000aa60       ?clear@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEXXZ 0040ba60 f i mainfunction.obj
- 0001:0000ab20       ?deallocate@?$_Default_allocator_traits@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@2@QAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@I@Z 0040bb20 f i mainfunction.obj
- 0001:0000ab40       ?deallocate@?$allocator@PAVCreature@@@std@@QAEXQAPAVCreature@@I@Z 0040bb40 f i mainfunction.obj
- 0001:0000ab70       ?end@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 0040bb70 f i mainfunction.obj
- 0001:0000abf0       ?erase@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@0@Z 0040bbf0 f i mainfunction.obj
- 0001:0000ace0       ?erase@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@@Z 0040bce0 f i mainfunction.obj
+ 0001:0000a370       ?_Get_first@?$_Compressed_pair@V?$allocator@PAVCreature@@@std@@V?$_Vector_val@U?$_Simple_types@PAVCreature@@@std@@@2@$00@std@@QAEAAV?$allocator@PAVCreature@@@2@XZ 0040b370 f i mainfunction.obj
+ 0001:0000a390       ?_Get_first@?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@std@@QAEAAV?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@2@XZ 0040b390 f i mainfunction.obj
+ 0001:0000a3b0       ?_Get_second@?$_Compressed_pair@U?$less@U?$pair@HH@std@@@std@@V?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@2@$00@std@@QAEAAV?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@2@XZ 0040b3b0 f i mainfunction.obj
+ 0001:0000a3d0       ?_Get_second@?$_Compressed_pair@U?$less@U?$pair@HH@std@@@std@@V?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@2@$00@std@@QBEABV?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@2@XZ 0040b3d0 f i mainfunction.obj
+ 0001:0000a3f0       ?_Get_second@?$_Compressed_pair@V?$allocator@PAVCreature@@@std@@V?$_Vector_val@U?$_Simple_types@PAVCreature@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@PAVCreature@@@std@@@2@XZ 0040b3f0 f i mainfunction.obj
+ 0001:0000a410       ?_Get_second@?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@std@@QAEAAV?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@XZ 0040b410 f i mainfunction.obj
+ 0001:0000a430       ?_Get_second@?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@$00@std@@QBEABV?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@2@XZ 0040b430 f i mainfunction.obj
+ 0001:0000a450       ?_Getal@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEAAV?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@2@XZ 0040b450 f i mainfunction.obj
+ 0001:0000a470       ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QAEAAV?$allocator@PAVCreature@@@2@XZ 0040b470 f i mainfunction.obj
+ 0001:0000a490       ?_Lmost@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@IBEAAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@XZ 0040b490 f i mainfunction.obj
+ 0001:0000a4d0       ?_Max@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@SAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@PAU32@@Z 0040b4d0 f i mainfunction.obj
+ 0001:0000a4f0       ?_Max@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@SAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@PAU32@@Z 0040b4f0 f i mainfunction.obj
+ 0001:0000a5c0       ?_Min@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@SAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@PAU32@@Z 0040b5c0 f i mainfunction.obj
+ 0001:0000a5e0       ?_Min@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@SAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@PAU32@@Z 0040b5e0 f i mainfunction.obj
+ 0001:0000a610       ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QAEAAPAPAVCreature@@XZ 0040b610 f i mainfunction.obj
+ 0001:0000a630       ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QBEABQAPAVCreature@@XZ 0040b630 f i mainfunction.obj
+ 0001:0000a660       ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QAEAAPAPAVCreature@@XZ 0040b660 f i mainfunction.obj
+ 0001:0000a680       ?_Myhead@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEAAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@XZ 0040b680 f i mainfunction.obj
+ 0001:0000a6a0       ?_Myhead@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QBEABQAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@XZ 0040b6a0 f i mainfunction.obj
+ 0001:0000a6c0       ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QAEAAPAPAVCreature@@XZ 0040b6c0 f i mainfunction.obj
+ 0001:0000a6e0       ?_Mysize@?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEAAIXZ 0040b6e0 f i mainfunction.obj
+ 0001:0000a700       ?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QAEXXZ 0040b700 f i mainfunction.obj
+ 0001:0000a720       ?_Rmost@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@IBEAAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@XZ 0040b720 f i mainfunction.obj
+ 0001:0000a740       ?_Root@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@IBEAAPAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@XZ 0040b740 f i mainfunction.obj
+ 0001:0000a7c0       ?begin@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 0040b7c0 f i mainfunction.obj
+ 0001:0000a890       ?capacity@?$vector@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@QBEIXZ 0040b890 f i mainfunction.obj
+ 0001:0000a8f0       ?clear@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEXXZ 0040b8f0 f i mainfunction.obj
+ 0001:0000a9a0       ?deallocate@?$_Default_allocator_traits@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@2@QAU?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@2@I@Z 0040b9a0 f i mainfunction.obj
+ 0001:0000aa20       ?deallocate@?$allocator@PAVCreature@@@std@@QAEXQAPAVCreature@@I@Z 0040ba20 f i mainfunction.obj
+ 0001:0000aa60       ?end@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 0040ba60 f i mainfunction.obj
  0001:0000ad90       ??0BaseEngine@@QAE@XZ      0040bd90 f   BaseEngine.obj
  0001:0000ae60       ??1BaseEngine@@UAE@XZ      0040be60 f   BaseEngine.obj
  0001:0000aec0       ?Initialise@BaseEngine@@QAEHPBDHH0H@Z 0040bec0 f   BaseEngine.obj
@@ -429,11 +413,8 @@
  0001:000111b0       ?DoUpdate@Missile@@UAEXH@Z 004121b0 f   Missile.obj
  0001:000113f0       ?Shoot@Missile@@QAEXU?$pair@HH@std@@@Z 004123f0 f   Missile.obj
  0001:00011610       ??1Missile@@UAE@XZ         00412610 f i Missile.obj
- 0001:00011680       ??_EMissile@@UAEPAXI@Z     00412680 f i Missile.obj
  0001:00011680       ??_GMissile@@UAEPAXI@Z     00412680 f i Missile.obj
- 0001:000116c0       ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@@std@@QBEABQAPAVCreature@@XZ 004126c0 f i Missile.obj
- 0001:000116e0       ?_Unchecked_begin@?$vector@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@QBEPBQAVCreature@@XZ 004126e0 f i Missile.obj
- 0001:00011700       ?_Unchecked_end@?$vector@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@QBEPBQAVCreature@@XZ 00412700 f i Missile.obj
+ 0001:00011680       ??_EMissile@@UAEPAXI@Z     00412680 f i Missile.obj
  0001:00011720       ??0Player@@QAE@PAVBaseEngine@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@II@Z 00412720 f   Player.obj
  0001:00011850       ?Draw@Player@@UAEXXZ       00412850 f   Player.obj
  0001:000118c0       ?DoUpdate@Player@@UAEXH@Z  004128c0 f   Player.obj
@@ -518,16 +499,16 @@
  0001:00014870       ??D?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEAADXZ 00415870 f i PsyhshEngine.obj
  0001:00014b50       ??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ 00415b50 f i PsyhshEngine.obj
  0001:00014b7a       ??_E?$basic_ifstream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z 00415b7a f i PsyhshEngine.obj
- 0001:00014b90       ??_G?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00415b90 f i PsyhshEngine.obj
  0001:00014b90       ??_E?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00415b90 f i PsyhshEngine.obj
- 0001:00014bd0       ??_G?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00415bd0 f i PsyhshEngine.obj
+ 0001:00014b90       ??_G?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00415b90 f i PsyhshEngine.obj
  0001:00014bd0       ??_E?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00415bd0 f i PsyhshEngine.obj
- 0001:00014c20       ??_EPsyhshEngine@@UAEPAXI@Z 00415c20 f i PsyhshEngine.obj
+ 0001:00014bd0       ??_G?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00415bd0 f i PsyhshEngine.obj
  0001:00014c20       ??_GPsyhshEngine@@UAEPAXI@Z 00415c20 f i PsyhshEngine.obj
+ 0001:00014c20       ??_EPsyhshEngine@@UAEPAXI@Z 00415c20 f i PsyhshEngine.obj
  0001:00014c60       ??_Ebad_cast@std@@UAEPAXI@Z 00415c60 f i PsyhshEngine.obj
  0001:00014c60       ??_Gbad_cast@std@@UAEPAXI@Z 00415c60 f i PsyhshEngine.obj
- 0001:00014ca0       ??_Eexception@std@@UAEPAXI@Z 00415ca0 f i PsyhshEngine.obj
  0001:00014ca0       ??_Gexception@std@@UAEPAXI@Z 00415ca0 f i PsyhshEngine.obj
+ 0001:00014ca0       ??_Eexception@std@@UAEPAXI@Z 00415ca0 f i PsyhshEngine.obj
  0001:00014ce0       ?DrawAllTiles@TileManager@@QBEXPAVBaseEngine@@PAUSDL_Surface@@HHHH@Z 00415ce0 f i PsyhshEngine.obj
  0001:00014d30       ?DrawableObjectsChanged@BaseEngine@@QAEXXZ 00415d30 f i PsyhshEngine.obj
  0001:00014d50       ?GetBackground@BaseEngine@@QAEPAUSDL_Surface@@XZ 00415d50 f i PsyhshEngine.obj
@@ -658,8 +639,8 @@
  0001:00018790       ?KeyDown@SimpleDemo@@UAEXH@Z 00419790 f   SimpleDemo.obj
  0001:000188b0       ??0SimpleShape@@QAE@PAVSimpleDemo@@@Z 004198b0 f i SimpleDemo.obj
  0001:000189f0       ??1SimpleShape@@UAE@XZ     004199f0 f i SimpleDemo.obj
- 0001:00018a10       ??_ESimpleShape@@UAEPAXI@Z 00419a10 f i SimpleDemo.obj
  0001:00018a10       ??_GSimpleShape@@UAEPAXI@Z 00419a10 f i SimpleDemo.obj
+ 0001:00018a10       ??_ESimpleShape@@UAEPAXI@Z 00419a10 f i SimpleDemo.obj
  0001:00018a50       ?DoUpdate@SimpleShape@@UAEXH@Z 00419a50 f i SimpleDemo.obj
  0001:00018ea0       ?Draw@SimpleShape@@UAEXXZ  00419ea0 f i SimpleDemo.obj
  0001:00018f50       ?SetBackgroundPixel@BaseEngine@@QAEXHHI@Z 00419f50 f i SimpleDemo.obj
@@ -672,8 +653,8 @@
  0001:000192f0       ??1SineObject@@UAE@XZ      0041a2f0 f   SineObject.obj
  0001:00019310       ?Draw@SineObject@@UAEXXZ   0041a310 f   SineObject.obj
  0001:00019370       ?DoUpdate@SineObject@@UAEXH@Z 0041a370 f   SineObject.obj
- 0001:00019450       ??_ESineObject@@UAEPAXI@Z  0041a450 f i SineObject.obj
  0001:00019450       ??_GSineObject@@UAEPAXI@Z  0041a450 f i SineObject.obj
+ 0001:00019450       ??_ESineObject@@UAEPAXI@Z  0041a450 f i SineObject.obj
  0001:00019490       ??0Sprite@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 0041a490 f   Sprite.obj
  0001:000197c0       ?GetActiveSprite@Sprite@@QBEABVImageData@@XZ 0041a7c0 f   Sprite.obj
  0001:000197e0       ?GetActiveSpriteState@Sprite@@QBE?AW4SpriteState@@XZ 0041a7e0 f   Sprite.obj
@@ -826,12 +807,12 @@
  0001:0001ef10       ??0MovementPosition@@QAE@XZ 0041ff10 f i BouncingBall.obj
  0001:0001ef90       ??1BouncingBall1@@UAE@XZ   0041ff90 f i BouncingBall.obj
  0001:0001efb0       ??1BouncingBall2@@UAE@XZ   0041ffb0 f i BouncingBall.obj
- 0001:0001efd0       ??_EBouncingBall1@@UAEPAXI@Z 0041ffd0 f i BouncingBall.obj
  0001:0001efd0       ??_GBouncingBall1@@UAEPAXI@Z 0041ffd0 f i BouncingBall.obj
- 0001:0001f010       ??_EBouncingBall2@@UAEPAXI@Z 00420010 f i BouncingBall.obj
+ 0001:0001efd0       ??_EBouncingBall1@@UAEPAXI@Z 0041ffd0 f i BouncingBall.obj
  0001:0001f010       ??_GBouncingBall2@@UAEPAXI@Z 00420010 f i BouncingBall.obj
- 0001:0001f050       ??_EBouncingBall@@UAEPAXI@Z 00420050 f i BouncingBall.obj
+ 0001:0001f010       ??_EBouncingBall2@@UAEPAXI@Z 00420010 f i BouncingBall.obj
  0001:0001f050       ??_GBouncingBall@@UAEPAXI@Z 00420050 f i BouncingBall.obj
+ 0001:0001f050       ??_EBouncingBall@@UAEPAXI@Z 00420050 f i BouncingBall.obj
  0001:0001f090       ?Calculate@MovementPosition@@QAEXH@Z 00420090 f i BouncingBall.obj
  0001:0001f180       ?GetTileXForPositionOnScreen@TileManager@@QBEHH@Z 00420180 f i BouncingBall.obj
  0001:0001f1b0       ?GetTileYForPositionOnScreen@TileManager@@QBEHH@Z 004201b0 f i BouncingBall.obj
@@ -903,8 +884,8 @@
  0001:00021c30       ??1Demo3ObjectFinished@@UAE@XZ 00422c30 f   Demo3ObjectFinished.obj
  0001:00021c50       ?Draw@Demo3ObjectFinished@@UAEXXZ 00422c50 f   Demo3ObjectFinished.obj
  0001:00021d00       ?DoUpdate@Demo3ObjectFinished@@UAEXH@Z 00422d00 f   Demo3ObjectFinished.obj
- 0001:00022130       ??_GDemo3ObjectFinished@@UAEPAXI@Z 00423130 f i Demo3ObjectFinished.obj
  0001:00022130       ??_EDemo3ObjectFinished@@UAEPAXI@Z 00423130 f i Demo3ObjectFinished.obj
+ 0001:00022130       ??_GDemo3ObjectFinished@@UAEPAXI@Z 00423130 f i Demo3ObjectFinished.obj
  0001:00022170       ?GetXDiffForDirection@Demo3ObjectFinished@@QAEHH@Z 00423170 f i Demo3ObjectFinished.obj
  0001:000221e0       ?GetYDiffForDirection@Demo3ObjectFinished@@QAEHH@Z 004231e0 f i Demo3ObjectFinished.obj
  0001:00022250       ??0Demo3TileManager@@QAE@XZ 00423250 f   Demo3TileManager.obj
@@ -920,8 +901,8 @@
  0001:00022a70       ?KeyDown@Demo4Main@@UAEXH@Z 00423a70 f   Demo4Main.obj
  0001:00022b70       ?UndrawObjects@Demo4Main@@UAEXXZ 00423b70 f   Demo4Main.obj
  0001:00022b90       ?DrawObjects@Demo4Main@@UAEXXZ 00423b90 f   Demo4Main.obj
- 0001:00022d80       ??_GDemo4Main@@UAEPAXI@Z   00423d80 f i Demo4Main.obj
  0001:00022d80       ??_EDemo4Main@@UAEPAXI@Z   00423d80 f i Demo4Main.obj
+ 0001:00022d80       ??_GDemo4Main@@UAEPAXI@Z   00423d80 f i Demo4Main.obj
  0001:00022dc0       ?IncreaseTimeOffset@BaseEngine@@QAEXH@Z 00423dc0 f i Demo4Main.obj
  0001:00022df0       ??0Demo4Object@@QAE@PAVDemo4Main@@HH@Z 00423df0 f   Demo4Object.obj
  0001:00022ef0       ??1Demo4Object@@UAE@XZ     00423ef0 f   Demo4Object.obj
@@ -1031,8 +1012,8 @@
  0001:00024034       ??_V@YAXPAX@Z              00425034 f   MSVCRT:delete_array.obj
  0001:00024039       @__security_check_cookie@4 00425039 f   MSVCRT:_secchk_.obj
  0001:0002404e       ??1type_info@@UAE@XZ       0042504e f   MSVCRT:std_type_info_static.obj
- 0001:00024055       ??_Gtype_info@@UAEPAXI@Z   00425055 f i MSVCRT:std_type_info_static.obj
  0001:00024055       ??_Etype_info@@UAEPAXI@Z   00425055 f i MSVCRT:std_type_info_static.obj
+ 0001:00024055       ??_Gtype_info@@UAEPAXI@Z   00425055 f i MSVCRT:std_type_info_static.obj
  0001:00024080       ??_U@YAPAXI@Z              00425080 f   MSVCRT:new_array.obj
  0001:0002408b       ??$__crt_fast_decode_pointer@PAP6AXXZ@@YAPAP6AXXZQAP6AXXZ@Z 0042508b f i MSVCRT:utility.obj
  0001:000240a4       ??$__crt_fast_encode_pointer@PAP6AXXZ@@YAPAP6AXXZQAP6AXXZ@Z 004250a4 f i MSVCRT:utility.obj
@@ -1207,23 +1188,44 @@
  0001:000257d1       _SDL_iconv_string          004267d1 f   SDL2:SDL2.dll
  0001:000257d7       _SDL_SetMainReady          004267d7 f   SDL2:SDL2.dll
  0001:000257dd       _SDL_ShowSimpleMessageBox  004267dd f   SDL2:SDL2.dll
- 0001:000257e3       ___vcrt_initialize         004267e3 f   MSVCRT:ucrt_stubs.obj
  0001:000257e3       ___scrt_stub_for_acrt_initialize 004267e3 f   MSVCRT:ucrt_stubs.obj
+ 0001:000257e3       ___vcrt_initialize         004267e3 f   MSVCRT:ucrt_stubs.obj
  0001:000257e3       ___acrt_initialize         004267e3 f   MSVCRT:ucrt_stubs.obj
- 0001:000257e6       ___acrt_thread_attach      004267e6 f   MSVCRT:ucrt_stubs.obj
  0001:000257e6       ___vcrt_thread_attach      004267e6 f   MSVCRT:ucrt_stubs.obj
+ 0001:000257e6       ___acrt_thread_attach      004267e6 f   MSVCRT:ucrt_stubs.obj
  0001:000257e6       ___scrt_stub_for_acrt_thread_attach 004267e6 f   MSVCRT:ucrt_stubs.obj
- 0001:000257e9       ___acrt_thread_detach      004267e9 f   MSVCRT:ucrt_stubs.obj
  0001:000257e9       ___vcrt_thread_detach      004267e9 f   MSVCRT:ucrt_stubs.obj
+ 0001:000257e9       ___acrt_thread_detach      004267e9 f   MSVCRT:ucrt_stubs.obj
  0001:000257e9       ___scrt_stub_for_acrt_thread_detach 004267e9 f   MSVCRT:ucrt_stubs.obj
- 0001:000257ec       ___scrt_stub_for_acrt_uninitialize 004267ec f   MSVCRT:ucrt_stubs.obj
- 0001:000257ec       ___vcrt_uninitialize       004267ec f   MSVCRT:ucrt_stubs.obj
  0001:000257ec       ___acrt_uninitialize       004267ec f   MSVCRT:ucrt_stubs.obj
+ 0001:000257ec       ___vcrt_uninitialize       004267ec f   MSVCRT:ucrt_stubs.obj
+ 0001:000257ec       ___scrt_stub_for_acrt_uninitialize 004267ec f   MSVCRT:ucrt_stubs.obj
  0001:000257ef       ___scrt_stub_for_acrt_uninitialize_critical 004267ef f   MSVCRT:ucrt_stubs.obj
  0001:000257ef       ___vcrt_uninitialize_critical 004267ef f   MSVCRT:ucrt_stubs.obj
  0001:000257ef       ___acrt_uninitialize_critical 004267ef f   MSVCRT:ucrt_stubs.obj
- 0001:000257f2       ___scrt_stub_for_is_c_termination_complete 004267f2 f   MSVCRT:ucrt_stubs.obj
  0001:000257f2       __is_c_termination_complete 004267f2 f   MSVCRT:ucrt_stubs.obj
+ 0001:000257f2       ___scrt_stub_for_is_c_termination_complete 004267f2 f   MSVCRT:ucrt_stubs.obj
+ 0001:00025800       ??0Creature@@QAE@PAVBaseEngine@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IABU?$pair@HH@3@IIH_N3@Z 00426800 f   Creature.obj
+ 0001:00025930       ?Draw@Creature@@UAEXXZ     00426930 f   Creature.obj
+ 0001:000259b0       ?DoUpdate@Creature@@UAEXH@Z 004269b0 f   Creature.obj
+ 0001:00025c10       ?GetBoundingBox@Creature@@QBE?AU?$pair@U?$pair@HH@std@@U12@@std@@XZ 00426c10 f   Creature.obj
+ 0001:00025c90       ?IsAlive@Creature@@QBE_NXZ 00426c90 f   Creature.obj
+ 0001:00025cc0       ?Kill@Creature@@QAEXXZ     00426cc0 f   Creature.obj
+ 0001:00025cf0       ?GetMaxHealth@Creature@@QBEIXZ 00426cf0 f   Creature.obj
+ 0001:00025d10       ?GetHealth@Creature@@QBEIXZ 00426d10 f   Creature.obj
+ 0001:00025d30       ?SetHealth@Creature@@QAEXI@Z 00426d30 f   Creature.obj
+ 0001:00025d50       ?SetSpeed@Creature@@QAEXI@Z 00426d50 f   Creature.obj
+ 0001:00025d70       ?GetPosition@Creature@@QBE?AU?$pair@HH@std@@XZ 00426d70 f   Creature.obj
+ 0001:00025da0       ?SetPosition@Creature@@QAEXABU?$pair@HH@std@@@Z 00426da0 f   Creature.obj
+ 0001:00025dd0       ?GetTarget@Creature@@QBE?AU?$pair@HH@std@@XZ 00426dd0 f   Creature.obj
+ 0001:00025e00       ?SetTarget@Creature@@QAEXU?$pair@HH@std@@@Z 00426e00 f   Creature.obj
+ 0001:00025e20       ?GetAggroRange@Creature@@QBEIXZ 00426e20 f   Creature.obj
+ 0001:00025e40       ?SetAggroRange@Creature@@QAEXI@Z 00426e40 f   Creature.obj
+ 0001:00025e60       ?SetActivationTime@Creature@@QAEXH@Z 00426e60 f   Creature.obj
+ 0001:00025e80       ?IsActive@Creature@@QBE_NXZ 00426e80 f   Creature.obj
+ 0001:00025eb0       ?IsFleeing@Creature@@QBE_NXZ 00426eb0 f   Creature.obj
+ 0001:00025ed0       ?SetFleeing@Creature@@QAEX_N@Z 00426ed0 f   Creature.obj
+ 0001:00025ef0       ?HandleMovement@Creature@@IAEXH@Z 00426ef0 f   Creature.obj
  0002:00000000       ___xc_a                    0042c000     MSVCRT:initializers.obj
  0002:0000030c       ___xc_z                    0042c30c     MSVCRT:initializers.obj
  0002:00000410       ___xi_a                    0042c410     MSVCRT:initializers.obj
@@ -1244,7 +1246,7 @@
  0002:00000d58       __real@00000000            0042cd58     HealthBar.obj
  0002:00000d5c       __real@40a00000            0042cd5c     HealthBar.obj
  0002:00000d60       __real@42c80000            0042cd60     HealthBar.obj
- 0002:00000d70       __xmm@41f00000000000000000000000000000 0042cd70     HealthBar.obj
+ 0002:00000d70       __xmm@41f00000000000000000000000000000 0042cd70     Creature.obj
  0002:00000dcc       ??_7HUD@@6B@               0042cdcc     HUD.obj
  0002:00000e18       ??_7TileManager@@6B@       0042ce18     mainfunction.obj
  0002:00000e28       ?MY_PI@BaseEngine@@2NB     0042ce28     BaseEngine.obj
@@ -1807,183 +1809,88 @@
 
  Static symbols
 
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0001:fffff000       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000 f   PsyhshEngine.obj
+ 0001:fffff000       __ehhandler$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00400000 f   PsyhshEngine.obj
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0001:fffff000       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z$0 00400000 f   PsyhshEngine.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffca000       __guard_fids__             00400000     MSVCRT:guard_support.obj
+ 0002:fffd4000       __unwindtable$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400000     HUD.obj
  0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
  0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
  0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0002:fffd4000       __ehfuncinfo$??1?$vector@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@QAE@XZ 00400000     PsyhshEngine.obj
- 0000:fffca000       __guard_fids__             00400000     msvcprt:locale0_implib.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0002:fffd4000       __ehfuncinfo$??$_Freenode0@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@1@PAU01@@Z 00400000     PsyhshTileManager.obj
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-math-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0002:fffd4000       __ehfuncinfo$?begin@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000     PsyhshTileManager.obj
- 0002:fffd4000       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400000     PsyhshEngine.obj
- 0001:fffff000       __ehhandler$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   PsyhshEngine.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0002:fffd4000       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000     PsyhshEngine.obj
- 0002:fffd4000       __ehfuncinfo$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00400000     PsyhshEngine.obj
- 0002:fffd4000       __ehfuncinfo$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     PsyhshEngine.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0002:fffd4000       __ehfuncinfo$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000     PsyhshEngine.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0002:fffd4000       __ehfuncinfo$??1?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000     PsyhshEngine.obj
- 0002:fffd4000       __ehfuncinfo$??1?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000     PsyhshEngine.obj
- 0002:fffd4000       __ehfuncinfo$?begin@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000     PsyhshEngine.obj
- 0002:fffd4000       __ehfuncinfo$?end@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000     PsyhshEngine.obj
- 0002:fffd4000       __ehfuncinfo$?clear@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEXXZ 00400000     PsyhshEngine.obj
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0002:fffd4000       __ehfuncinfo$??1?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000     PsyhshTileManager.obj
- 0000:fffca000       __guard_fids__             00400000     MSVCRT:exe_main.obj
- 0000:fffca000       __guard_fids_?pre_c_initialization@@YAHXZ 00400000     MSVCRT:exe_main.obj
- 0000:fffca000       __guard_fids__             00400000     MSVCRT:std_type_info_static.obj
- 0000:fffca000       __guard_fids____scrt_set_unhandled_exception_filter 00400000     MSVCRT:utility_desktop.obj
- 0002:fffd4000       __ehfuncinfo$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000     Sprite.obj
- 0001:fffff000       __ehhandler$??$_Freenode0@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@1@PAU01@@Z 00400000 f   PsyhshEngine.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0001:fffff000       __unwindfunclet$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z$0 00400000 f   PsyhshEngine.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0001:fffff000       __ehhandler$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000 f   Sprite.obj
- 0002:fffd4000       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z 00400000     PsyhshEngine.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
- 0001:fffff000       __ehhandler$??1?$vector@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@QAE@XZ 00400000 f   PsyhshEngine.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0001:fffff000       __ehhandler$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000 f   HealthBar.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
- 0000:fffca000       __guard_fids__             00400000     MSVCRT:guard_support.obj
- 0000:fffca000       __guard_fids___guard_icall_checks_enforced 00400000     MSVCRT:guard_support.obj
- 0000:fffc8000       .debug$S                   00400000     SDL2_ttf:SDL2_ttf.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
- 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
- 0001:fffff000       __ehhandler$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   ControlledObject.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0001:fffff000       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   Sprite.obj
- 0001:fffff000       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000 f   Sprite.obj
- 0001:fffff000       __ehhandler$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00400000 f   Sprite.obj
- 0001:fffff000       __ehhandler$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   Sprite.obj
- 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
- 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
- 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
- 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0002:fffd4000       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z 00400000     HUD.obj
- 0001:fffff000       __ehhandler$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000 f   PsyhshEngine.obj
- 0001:fffff000       __unwindfunclet$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z$0 00400000 f   HUD.obj
- 0001:fffff000       __ehhandler$??1?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000 f   PsyhshEngine.obj
- 0001:fffff000       __ehhandler$??1?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000 f   PsyhshEngine.obj
- 0001:fffff000       __ehhandler$?begin@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000 f   PsyhshEngine.obj
- 0001:fffff000       __ehhandler$?end@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000 f   PsyhshEngine.obj
- 0001:fffff000       __ehhandler$?clear@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEXXZ 00400000 f   PsyhshEngine.obj
- 0001:fffff000       __ehhandler$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000 f   HUD.obj
- 0001:fffff000       __ehhandler$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   HUD.obj
- 0001:fffff000       __ehhandler$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00400000 f   HUD.obj
- 0001:fffff000       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000 f   HUD.obj
- 0001:fffff000       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z$0 00400000 f   HUD.obj
- 0002:fffd4000       __ehfuncinfo$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     ControlledObject.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0002:fffd4000       __ehfuncinfo$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     Missile.obj
- 0002:fffd4000       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400000     Missile.obj
- 0001:fffff000       __ehhandler$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   Missile.obj
- 0001:fffff000       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z$0 00400000 f   Missile.obj
- 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
- 0002:fffd4000       __unwindtable$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400000     HUD.obj
+ 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
  0002:fffd4000       __ehfuncinfo$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000     HUD.obj
- 0001:fffff000       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z$0 00400000 f   PsyhshEngine.obj
  0002:fffd4000       __ehfuncinfo$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     HUD.obj
- 0001:fffff000       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z$0 00400000 f   PsyhshEngine.obj
  0002:fffd4000       __ehfuncinfo$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00400000     HUD.obj
- 0002:fffd4000       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000     HUD.obj
- 0001:fffff000       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000 f   PsyhshEngine.obj
- 0001:fffff000       __ehhandler$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00400000 f   PsyhshEngine.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
- 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
- 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
- 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
- 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
- 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:fffff000       __ehhandler$??1?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000 f   PsyhshTileManager.obj
  0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-string-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-utility-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-time-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-math-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-math-l1-1-0.dll
- 0000:fffca000       __guard_fids_??__E_Fac_tidy_reg@std@@YAXXZ 00400000     msvcprt:locale0_implib.obj
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0001:fffff000       __ehhandler$??$_Freenode0@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@1@PAU01@@Z 00400000 f   PsyhshTileManager.obj
+ 0001:fffff000       __ehhandler$?clear@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEXXZ 00400000 f   PsyhshTileManager.obj
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0002:fffd4000       __ehfuncinfo$??1?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000     PsyhshTileManager.obj
  0002:fffd4000       __unwindtable$??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAABV?$codecvt@DDU_Mbstatet@@@0@ABVlocale@0@@Z 00400000     Stage.obj
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-math-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0002:fffd4000       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     Sprite.obj
- 0002:fffd4000       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000     Sprite.obj
- 0002:fffd4000       __ehfuncinfo$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00400000     Sprite.obj
- 0002:fffd4000       __ehfuncinfo$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     Sprite.obj
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-string-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-string-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:fffd4000       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000     HUD.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0002:fffd4000       __ehfuncinfo$?end@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000     PsyhshTileManager.obj
+ 0002:fffd4000       __ehfuncinfo$?clear@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEXXZ 00400000     PsyhshTileManager.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
  0002:fffd4000       __unwindtable$?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAE_NXZ 00400000     Stage.obj
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:fffd4000       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z 00400000     HUD.obj
  0002:fffd4000       __unwindtable$?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 00400000     Stage.obj
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:fffff000       __unwindfunclet$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z$0 00400000 f   HUD.obj
  0002:fffd4000       __unwindtable$?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z 00400000     Stage.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0001:fffff000       __ehhandler$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000 f   HUD.obj
  0002:fffd4000       __unwindtable$?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDHH@Z 00400000     Stage.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0001:fffff000       __ehhandler$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   HUD.obj
  0002:fffd4000       __ehfuncinfo$??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAE@XZ 00400000     Stage.obj
  0002:fffd4000       __unwindtable$??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@PAU_iobuf@@@Z 00400000     Stage.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0001:fffff000       __ehhandler$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00400000 f   HUD.obj
  0002:fffd4000       __unwindtable$??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAE@PBDHH@Z 00400000     Stage.obj
+ 0001:fffff000       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000 f   HUD.obj
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
  0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffca000       __guard_fids___except_handler4 00400000     MSVCRT:_chandler4gs_.obj
- 0000:fffc8000       .debug$S                   00400000     SDL2_ttf:SDL2_ttf.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2_ttf:SDL2_ttf.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2_ttf:SDL2_ttf.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2_ttf:SDL2_ttf.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2_image:SDL2_image.dll
- 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-filesystem-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-filesystem-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-utility-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
  0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-convert-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-convert-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
  0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
  0002:fffd4000       __ehfuncinfo$??1locale@std@@QAE@XZ 00400000     Stage.obj
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
  0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
  0002:fffd4000       __ehfuncinfo$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000     Stage.obj
  0002:fffd4000       __ehfuncinfo$?begin@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE?AV?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@XZ 00400000     Stage.obj
@@ -1991,82 +1898,82 @@
  0002:fffd4000       __ehfuncinfo$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00400000     Stage.obj
  0002:fffd4000       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000     Stage.obj
  0002:fffd4000       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z 00400000     Stage.obj
- 0001:fffff000       __ehhandler$??1?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000 f   PsyhshTileManager.obj
+ 0001:fffff000       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z$0 00400000 f   HUD.obj
  0002:fffd4000       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400000     Stage.obj
- 0001:fffff000       __ehhandler$?begin@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000 f   PsyhshTileManager.obj
+ 0002:fffd4000       __unwindtable$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400000     HealthBar.obj
  0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:fffff000       __ehhandler$?end@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000 f   PsyhshTileManager.obj
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
  0002:fffd4000       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     Stage.obj
  0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
  0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:fffff000       __unwindfunclet$??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAABV?$codecvt@DDU_Mbstatet@@@0@ABVlocale@0@@Z$0 00400000 f   Stage.obj
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
  0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-locale-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0001:fffff000       __unwindfunclet$??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAABV?$codecvt@DDU_Mbstatet@@@0@ABVlocale@0@@Z$0 00400000 f   Stage.obj
+ 0001:fffff000       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z$0 00400000 f   Missile.obj
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
  0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
  0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
  0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
  0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:fffff000       __ehhandler$?end@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000 f   PsyhshTileManager.obj
  0001:fffff000       __unwindfunclet$?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAE_NXZ$0 00400000 f   Stage.obj
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:fffff000       __ehhandler$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   Missile.obj
  0001:fffff000       __unwindfunclet$?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ$0 00400000 f   Stage.obj
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0002:fffd4000       __ehfuncinfo$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000     HealthBar.obj
  0001:fffff000       __unwindfunclet$?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z$0 00400000 f   Stage.obj
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:fffd4000       __ehfuncinfo$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     HealthBar.obj
  0001:fffff000       __unwindfunclet$?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDHH@Z$0 00400000 f   Stage.obj
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:fffd4000       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400000     Missile.obj
  0001:fffff000       __ehhandler$??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAE@XZ 00400000 f   Stage.obj
  0001:fffff000       __unwindfunclet$??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@PAU_iobuf@@@Z$0 00400000 f   Stage.obj
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:fffd4000       __ehfuncinfo$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     Missile.obj
+ 0001:fffff000       __unwindfunclet$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z$0 00400000 f   HealthBar.obj
+ 0001:fffff000       __ehhandler$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000 f   HealthBar.obj
  0001:fffff000       __unwindfunclet$??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAE@PBDHH@Z$0 00400000 f   Stage.obj
- 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
- 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
- 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
- 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
- 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
- 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
- 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
- 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
- 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
- 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
- 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
- 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0002:fffd4000       __ehfuncinfo$?clear@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEXXZ 00400000     PsyhshTileManager.obj
+ 0001:fffff000       __ehhandler$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   HealthBar.obj
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:fffff000       __ehhandler$?begin@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000 f   PsyhshTileManager.obj
+ 0001:fffff000       __ehhandler$??1?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000 f   PsyhshTileManager.obj
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-filesystem-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-filesystem-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2_image:SDL2_image.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2_ttf:SDL2_ttf.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2_ttf:SDL2_ttf.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2_ttf:SDL2_ttf.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2_ttf:SDL2_ttf.dll
+ 0000:fffca000       __guard_fids___except_handler4 00400000     MSVCRT:_chandler4gs_.obj
  0001:fffff000       __ehhandler$??1locale@std@@QAE@XZ 00400000 f   Stage.obj
- 0002:fffd4000       __ehfuncinfo$?end@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000     PsyhshTileManager.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
  0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
  0001:fffff000       __ehhandler$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000 f   Stage.obj
  0001:fffff000       __ehhandler$?begin@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE?AV?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@XZ 00400000 f   Stage.obj
@@ -2074,71 +1981,166 @@
  0001:fffff000       __ehhandler$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00400000 f   Stage.obj
  0001:fffff000       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000 f   Stage.obj
  0001:fffff000       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z$0 00400000 f   Stage.obj
- 0002:fffd4000       __ehfuncinfo$??1?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000     PsyhshTileManager.obj
+ 0002:fffd4000       __ehfuncinfo$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     ControlledObject.obj
  0001:fffff000       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z$0 00400000 f   Stage.obj
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0001:fffff000       __ehhandler$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   ControlledObject.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
  0001:fffff000       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   Stage.obj
- 0001:fffff000       __ehhandler$?clear@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEXXZ 00400000 f   PsyhshTileManager.obj
- 0001:fffff000       __ehhandler$??$_Freenode0@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@1@PAU01@@Z 00400000 f   PsyhshTileManager.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
- 0001:fffff000       __ehhandler$??1?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000 f   PsyhshTileManager.obj
- 0002:fffd4000       __unwindtable$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400000     HealthBar.obj
- 0002:fffd4000       __ehfuncinfo$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000     HealthBar.obj
- 0002:fffd4000       __ehfuncinfo$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     HealthBar.obj
- 0001:fffff000       __unwindfunclet$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z$0 00400000 f   HealthBar.obj
- 0001:fffff000       __ehhandler$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   HealthBar.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:fffd4000       __ehfuncinfo$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     Sprite.obj
+ 0002:fffd4000       __ehfuncinfo$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00400000     Sprite.obj
+ 0002:fffd4000       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000     Sprite.obj
+ 0002:fffd4000       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     Sprite.obj
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0000:fffca000       __guard_fids_??__E_Fac_tidy_reg@std@@YAXXZ 00400000     msvcprt:locale0_implib.obj
  0002:fffd4000       __unwindtable$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400000     PsyhshEngine.obj
- 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
  0002:fffd4000       __ehfuncinfo$??$_Freenode0@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@1@PAU01@@Z 00400000     PsyhshEngine.obj
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
+ 0002:fffd4000       __ehfuncinfo$??1?$vector@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@QAE@XZ 00400000     PsyhshEngine.obj
+ 0001:fffff000       __ehhandler$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   Sprite.obj
+ 0001:fffff000       __ehhandler$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00400000 f   Sprite.obj
+ 0001:fffff000       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000 f   Sprite.obj
+ 0001:fffff000       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   Sprite.obj
  0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
  0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
  0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0002:fffd4000       __ehfuncinfo$?clear@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEXXZ 00400000     PsyhshEngine.obj
+ 0002:fffd4000       __ehfuncinfo$?end@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000     PsyhshEngine.obj
+ 0002:fffd4000       __ehfuncinfo$?begin@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000     PsyhshEngine.obj
+ 0002:fffd4000       __ehfuncinfo$??1?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000     PsyhshEngine.obj
+ 0002:fffd4000       __ehfuncinfo$??1?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000     PsyhshEngine.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0002:fffd4000       __ehfuncinfo$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000     PsyhshEngine.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0002:fffd4000       __ehfuncinfo$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000     PsyhshEngine.obj
+ 0002:fffd4000       __ehfuncinfo$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00400000     PsyhshEngine.obj
+ 0002:fffd4000       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00400000     PsyhshEngine.obj
  0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
  0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0002:fffd4000       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400000     PsyhshEngine.obj
+ 0001:fffff000       __ehhandler$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00400000 f   PsyhshEngine.obj
+ 0002:fffd4000       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z 00400000     PsyhshEngine.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0001:fffff000       __unwindfunclet$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z$0 00400000 f   PsyhshEngine.obj
+ 0001:fffff000       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z$0 00400000 f   PsyhshEngine.obj
+ 0001:fffff000       __ehhandler$??$_Freenode0@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@1@PAU01@@Z 00400000 f   PsyhshEngine.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2_ttf:SDL2_ttf.dll
+ 0000:fffca000       __guard_fids___guard_icall_checks_enforced 00400000     MSVCRT:guard_support.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0001:fffff000       __ehhandler$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000 f   Sprite.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0002:fffd4000       __ehfuncinfo$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000     Sprite.obj
+ 0000:fffca000       __guard_fids____scrt_set_unhandled_exception_filter 00400000     MSVCRT:utility_desktop.obj
+ 0000:fffca000       __guard_fids__             00400000     MSVCRT:std_type_info_static.obj
+ 0000:fffca000       __guard_fids_?pre_c_initialization@@YAHXZ 00400000     MSVCRT:exe_main.obj
+ 0000:fffca000       __guard_fids__             00400000     MSVCRT:exe_main.obj
+ 0002:fffd4000       __ehfuncinfo$??1?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000     PsyhshTileManager.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     SDL2:SDL2.dll
+ 0001:fffff000       __ehhandler$??1?$vector@PAVCreature@@V?$allocator@PAVCreature@@@std@@@std@@QAE@XZ 00400000 f   PsyhshEngine.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0002:fffd4000       __ehfuncinfo$?begin@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000     PsyhshTileManager.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc8000       .debug$S                   00400000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:fffd4000       __ehfuncinfo$??$_Freenode0@V?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBU?$pair@HH@std@@_N@std@@PAX@std@@@1@PAU01@@Z 00400000     PsyhshTileManager.obj
  0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
  0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
  0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
  0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
  0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffca000       __guard_fids__             00400000     msvcprt:locale0_implib.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:fffc8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0001:fffff000       __ehhandler$?clear@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAEXXZ 00400000 f   PsyhshEngine.obj
+ 0001:fffff000       __ehhandler$?end@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000 f   PsyhshEngine.obj
+ 0001:fffff000       __ehhandler$?begin@?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@std@@@std@@@2@XZ 00400000 f   PsyhshEngine.obj
+ 0001:fffff000       __ehhandler$??1?$_Tree@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000 f   PsyhshEngine.obj
+ 0001:fffff000       __ehhandler$??1?$_Tree_comp_alloc@V?$_Tmap_traits@U?$pair@HH@std@@_NU?$less@U?$pair@HH@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@HH@std@@_N@std@@@2@$0A@@std@@@std@@QAE@XZ 00400000 f   PsyhshEngine.obj
+ 0000:fffc8000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0001:fffff000       __ehhandler$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00400000 f   PsyhshEngine.obj
+ 0000:fffca000       __guard_fids__             00400000     MSVCRT:throw_bad_alloc.obj
  0000:fffca004       __guard_fids__             00400004     MSVCRT:exe_main.obj
- 0002:fffd4008       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z 00400008     Stage.obj
- 0002:fffd4008       __ehfuncinfo$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400008     HUD.obj
- 0001:fffff008       __ehhandler$?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDHH@Z 00400008 f   Stage.obj
- 0001:fffff008       __ehhandler$?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z 00400008 f   Stage.obj
- 0002:fffd4008       __ehfuncinfo$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400008     HealthBar.obj
- 0001:fffff008       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400008 f   Missile.obj
- 0001:fffff008       __ehhandler$?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 00400008 f   Stage.obj
- 0001:fffff008       __ehhandler$?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAE_NXZ 00400008 f   Stage.obj
- 0001:fffff008       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z 00400008 f   HUD.obj
- 0002:fffd4008       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400008     Missile.obj
- 0001:fffff008       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z 00400008 f   PsyhshEngine.obj
- 0002:fffd4008       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400008     PsyhshEngine.obj
- 0002:fffd4008       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z 00400008     PsyhshEngine.obj
- 0001:fffff008       __ehhandler$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400008 f   PsyhshEngine.obj
- 0001:fffff008       __ehhandler$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400008 f   HealthBar.obj
+ 0002:fffd4008       __ehfuncinfo$?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z 00400008     Stage.obj
  0001:fffff008       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z 00400008 f   Stage.obj
- 0000:fffca008       __guard_fids__             00400008     MSVCRT:exe_main.obj
- 0002:fffd4008       __ehfuncinfo$?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 00400008     Stage.obj
- 0002:fffd4008       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400008     Stage.obj
- 0001:fffff008       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400008 f   PsyhshEngine.obj
- 0002:fffd4008       __ehfuncinfo$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400008     PsyhshEngine.obj
- 0002:fffd4008       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z 00400008     HUD.obj
  0002:fffd4008       __ehfuncinfo$??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@PAU_iobuf@@@Z 00400008     Stage.obj
  0002:fffd4008       __ehfuncinfo$?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDHH@Z 00400008     Stage.obj
- 0002:fffd4008       __ehfuncinfo$?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z 00400008     Stage.obj
- 0002:fffd4008       __ehfuncinfo$?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAE_NXZ 00400008     Stage.obj
+ 0001:fffff008       __ehhandler$?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z 00400008 f   Stage.obj
+ 0001:fffff008       __ehhandler$?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDHH@Z 00400008 f   Stage.obj
+ 0002:fffd4008       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z 00400008     Stage.obj
+ 0001:fffff008       __ehhandler$?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 00400008 f   Stage.obj
+ 0002:fffd4008       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400008     Missile.obj
+ 0001:fffff008       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400008 f   Missile.obj
+ 0001:fffff008       __ehhandler$?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAE_NXZ 00400008 f   Stage.obj
+ 0002:fffd4008       __ehfuncinfo$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400008     HealthBar.obj
+ 0002:fffd4008       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400008     Stage.obj
+ 0001:fffff008       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z 00400008 f   HUD.obj
+ 0001:fffff008       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z 00400008 f   PsyhshEngine.obj
+ 0002:fffd4008       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z 00400008     PsyhshEngine.obj
+ 0001:fffff008       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400008 f   PsyhshEngine.obj
+ 0002:fffd4008       __ehfuncinfo$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400008     PsyhshEngine.obj
+ 0002:fffd4008       __ehfuncinfo$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400008     HUD.obj
+ 0000:fffca008       __guard_fids__             00400008     MSVCRT:exe_main.obj
+ 0002:fffd4008       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400008     PsyhshEngine.obj
+ 0001:fffff008       __ehhandler$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400008 f   PsyhshEngine.obj
  0002:fffd4008       __ehfuncinfo$??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAABV?$codecvt@DDU_Mbstatet@@@0@ABVlocale@0@@Z 00400008     Stage.obj
- 0001:fffff008       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400008 f   Stage.obj
+ 0002:fffd4008       __ehfuncinfo$?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAE_NXZ 00400008     Stage.obj
+ 0002:fffd4008       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z 00400008     HUD.obj
+ 0002:fffd4008       __ehfuncinfo$?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 00400008     Stage.obj
  0001:fffff008       __ehhandler$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400008 f   HUD.obj
+ 0001:fffff008       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00400008 f   Stage.obj
+ 0001:fffff008       __ehhandler$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 00400008 f   HealthBar.obj
  0001:fffff009       __ehhandler$??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAABV?$codecvt@DDU_Mbstatet@@@0@ABVlocale@0@@Z 00400009 f   Stage.obj
  0001:fffff009       __ehhandler$??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@PAU_iobuf@@@Z 00400009 f   Stage.obj
  0002:fffd4018       __ehfuncinfo$??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAE@PBDHH@Z 00400018     Stage.obj
@@ -2261,9 +2263,9 @@
  0001:00027108       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBDI@Z 00428108 f   ControlledObject.obj
  0001:00027130       __ehhandler$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00428130 f   ControlledObject.obj
  0001:00027160       __ehhandler$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00428160 f   ControlledObject.obj
- 0001:00027190       __unwindfunclet$??0Creature@@QAE@PAVBaseEngine@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IABU?$pair@HH@3@IIH_N@Z$0 00428190 f   Creature.obj
- 0001:00027198       __unwindfunclet$??0Creature@@QAE@PAVBaseEngine@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IABU?$pair@HH@3@IIH_N@Z$1 00428198 f   Creature.obj
- 0001:000271a3       __ehhandler$??0Creature@@QAE@PAVBaseEngine@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IABU?$pair@HH@3@IIH_N@Z 004281a3 f   Creature.obj
+ 0001:00027190       __unwindfunclet$??0Creature@@QAE@PAVBaseEngine@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IABU?$pair@HH@3@IIH_N3@Z$0 00428190 f   Creature.obj
+ 0001:00027198       __unwindfunclet$??0Creature@@QAE@PAVBaseEngine@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IABU?$pair@HH@3@IIH_N3@Z$1 00428198 f   Creature.obj
+ 0001:000271a3       __ehhandler$??0Creature@@QAE@PAVBaseEngine@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IABU?$pair@HH@3@IIH_N3@Z 004281a3 f   Creature.obj
  0001:000271d0       __unwindfunclet$??0Cursor@@QAE@PAVBaseEngine@@@Z$0 004281d0 f   Cursor.obj
  0001:000271d8       __unwindfunclet$??0Cursor@@QAE@PAVBaseEngine@@@Z$1 004281d8 f   Cursor.obj
  0001:000271e3       __unwindfunclet$??0Cursor@@QAE@PAVBaseEngine@@@Z$2 004281e3 f   Cursor.obj
@@ -2474,30 +2476,30 @@
  0002:00000208       ?_Fac_tidy_reg$initializer$@std@@3P6AXXZA 0042c208     msvcprt:locale0_implib.obj
  0002:00000514       ?pre_c_initializer@@3P6AHXZA 0042c514     MSVCRT:exe_main.obj
  0002:00000618       ?post_pgo_initializer@@3P6AHXZA 0042c618     MSVCRT:exe_main.obj
- 0002:00000c30       $SG73465                   0042cc30     Boss.obj
- 0002:00000c40       $SG73603                   0042cc40     Boss.obj
- 0002:00000c8c       $SG73505                   0042cc8c     ControlledObject.obj
- 0002:00000ce4       $SG73463                   0042cce4     Cursor.obj
- 0002:00000cfc       $SG73464                   0042ccfc     Cursor.obj
- 0002:00000d84       $SG73531                   0042cd84     HUD.obj
- 0002:00000d8c       $SG73532                   0042cd8c     HUD.obj
- 0002:00000d98       $SG73533                   0042cd98     HUD.obj
- 0002:00000da0       $SG73535                   0042cda0     HUD.obj
- 0002:00000da8       $SG73537                   0042cda8     HUD.obj
- 0002:00000db4       $SG73539                   0042cdb4     HUD.obj
- 0002:00000de4       $SG73961                   0042cde4     mainfunction.obj
- 0002:00000dfc       $SG73962                   0042cdfc     mainfunction.obj
+ 0002:00000c30       $SG73467                   0042cc30     Boss.obj
+ 0002:00000c40       $SG73605                   0042cc40     Boss.obj
+ 0002:00000c8c       $SG73507                   0042cc8c     ControlledObject.obj
+ 0002:00000ce4       $SG73465                   0042cce4     Cursor.obj
+ 0002:00000cfc       $SG73466                   0042ccfc     Cursor.obj
+ 0002:00000d84       $SG73533                   0042cd84     HUD.obj
+ 0002:00000d8c       $SG73534                   0042cd8c     HUD.obj
+ 0002:00000d98       $SG73535                   0042cd98     HUD.obj
+ 0002:00000da0       $SG73537                   0042cda0     HUD.obj
+ 0002:00000da8       $SG73539                   0042cda8     HUD.obj
+ 0002:00000db4       $SG73541                   0042cdb4     HUD.obj
+ 0002:00000de4       $SG73963                   0042cde4     mainfunction.obj
+ 0002:00000dfc       $SG73964                   0042cdfc     mainfunction.obj
  0002:00000e30       $SG88973                   0042ce30     BaseEngine.obj
  0002:00000e48       $SG89540                   0042ce48     BaseEngine.obj
  0002:00000e74       $SG89541                   0042ce74     BaseEngine.obj
  0002:00000e90       $SG89595                   0042ce90     BaseEngine.obj
  0002:00001030       $SG34543                   0042d030     FontManager.obj
  0002:0000104c       $SG34547                   0042d04c     FontManager.obj
- 0002:000010b4       $SG73466                   0042d0b4     Missile.obj
- 0002:00001104       $SG74057                   0042d104     PsyhshEngine.obj
- 0002:00001118       $SG74115                   0042d118     PsyhshEngine.obj
- 0002:0000112c       $SG74473                   0042d12c     PsyhshEngine.obj
- 0002:00001134       $SG74474                   0042d134     PsyhshEngine.obj
+ 0002:000010b4       $SG73468                   0042d0b4     Missile.obj
+ 0002:00001104       $SG74059                   0042d104     PsyhshEngine.obj
+ 0002:00001118       $SG74117                   0042d118     PsyhshEngine.obj
+ 0002:0000112c       $SG74475                   0042d12c     PsyhshEngine.obj
+ 0002:00001134       $SG74476                   0042d134     PsyhshEngine.obj
  0002:00001280       $SG70228                   0042d280     PsyhshTileManager.obj
  0002:00001294       $SG70229                   0042d294     PsyhshTileManager.obj
  0002:000012fc       $SG35732                   0042d2fc     SimpleDemo.obj
@@ -2511,11 +2513,11 @@
  0002:000015f0       $SG66671                   0042d5f0     Sprite.obj
  0002:00001600       $SG66672                   0042d600     Sprite.obj
  0002:00001610       $SG66673                   0042d610     Sprite.obj
- 0002:0000162c       $SG74651                   0042d62c     Stage.obj
- 0002:0000165c       $SG74652                   0042d65c     Stage.obj
- 0002:00001678       $SG74654                   0042d678     Stage.obj
- 0002:0000167c       $SG74656                   0042d67c     Stage.obj
- 0002:000016b4       $SG74657                   0042d6b4     Stage.obj
+ 0002:0000162c       $SG74653                   0042d62c     Stage.obj
+ 0002:0000165c       $SG74654                   0042d65c     Stage.obj
+ 0002:00001678       $SG74656                   0042d678     Stage.obj
+ 0002:0000167c       $SG74658                   0042d67c     Stage.obj
+ 0002:000016b4       $SG74659                   0042d6b4     Stage.obj
  0002:000017b4       $SG35847                   0042d7b4     BouncingBallMain.obj
  0002:000017c0       $SG35858                   0042d7c0     BouncingBallMain.obj
  0002:000017c4       $SG35860                   0042d7c4     BouncingBallMain.obj
@@ -2567,8 +2569,8 @@
  0002:00003c14       __ehfuncinfo$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 0042fc14     ControlledObject.obj
  0002:00003c3c       __unwindtable$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 0042fc3c     ControlledObject.obj
  0002:00003c44       __ehfuncinfo$??$?0PADX@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PAD0ABV?$allocator@D@1@@Z 0042fc44     ControlledObject.obj
- 0002:00003c6c       __unwindtable$??0Creature@@QAE@PAVBaseEngine@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IABU?$pair@HH@3@IIH_N@Z 0042fc6c     Creature.obj
- 0002:00003c7c       __ehfuncinfo$??0Creature@@QAE@PAVBaseEngine@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IABU?$pair@HH@3@IIH_N@Z 0042fc7c     Creature.obj
+ 0002:00003c6c       __unwindtable$??0Creature@@QAE@PAVBaseEngine@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IABU?$pair@HH@3@IIH_N3@Z 0042fc6c     Creature.obj
+ 0002:00003c7c       __ehfuncinfo$??0Creature@@QAE@PAVBaseEngine@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IABU?$pair@HH@3@IIH_N3@Z 0042fc7c     Creature.obj
  0002:00003ca8       __unwindtable$??0Cursor@@QAE@PAVBaseEngine@@@Z 0042fca8     Cursor.obj
  0002:00003cc0       __ehfuncinfo$??0Cursor@@QAE@PAVBaseEngine@@@Z 0042fcc0     Cursor.obj
  0002:00003cec       __unwindtable$?Draw@HealthBar@@UAEXXZ 0042fcec     HealthBar.obj
